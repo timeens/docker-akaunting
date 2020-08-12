@@ -31,6 +31,8 @@ COPY assets/tools/ /usr/bin/
 
 COPY entrypoint.sh /sbin/entrypoint.sh
 
+COPY AppServiceProvider.php /var/www/akaunting/app/Providers/AppServiceProvider.php
+
 RUN chmod 755 /sbin/entrypoint.sh
 
 WORKDIR ${AKAUNTING_INSTALL_DIR}
