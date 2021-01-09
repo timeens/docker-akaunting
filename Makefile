@@ -1,4 +1,4 @@
-IMAGE:=sameersbn/$(shell basename $$PWD)
+IMAGE:=timeens/$(shell basename $$PWD)
 RELEASE:=$$(cat VERSION)
 
 all: latest
