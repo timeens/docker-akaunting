@@ -1,4 +1,6 @@
 # ChangeLog
+**2.0.26**
+akaunting: upgrade to 2.0.26
 
 **1.3.17-0**
 akaunting: upgrade to 1.3.17

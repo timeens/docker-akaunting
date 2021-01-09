@@ -1,4 +1,4 @@
-FROM ubuntu:focal-20210109
+FROM ubuntu:focal
 LABEL maintainer="sameer@damagehead.com"
 
 ENV PHP_VERSION=7.4 \
